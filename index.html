@@ -7,11 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="./js/action.js"></script>
     <title>Página de Start BCW18</title>
 </head>
 
-<body>
+<body style="font-family: roboto;">
     <header>
         <nav>
             <a href="#somos">Quem somos neste <strong>BCW18</strong></a> |
@@ -22,17 +25,41 @@
     </header>
     <main>
         <div style="width: 650px;">
-            <h1>Trajetória de Sucesso</h1>
-            <hr>
-            <p id="somos" style="height: 450px;;">
-                    <h3> <strong>Fase 1:</strong></h3> Incrição no site oficial, execução do teste de lógica, curso de trilha zero e Pitch.
-            </p>
-            <p id="cronograma" style="height: 450px;;"></p>
-                <h3><strong>Fase 2:</strong> </h3> Testes trilha zero e entrevista com recrutador para avaliação de bolsa. Nesta fase se analisa a elegibilidade para a bolsa de estudos perante os clientes e o candidato.
-            </p>
-            <p id="dicas" style="height: 450px;;"></p>
-                <h3><strong>Fase 3:</strong></h3> Dinâmica em grupo com a realização de teste on-line e convocação dos alunos aprovados.
-            </p>
+            <table>
+                <tr>
+                    <th>FASE</th>
+                    <th>DESCRIÇÃO</th>
+                    <th>Imagem</th>
+                </tr>
+                <tr>
+                    <td>Primeira</td>
+                    <td>
+                        Incrição no site oficial, execução do teste de lógica, curso de trilha zero e Pitch.
+                    </td>
+                    <td>
+                        <img src="./img/imagem3.jpg" alt="Incrição SoulCode" width="180px" height="180px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Segunda</td>
+                    <td>
+                        Testes trilha zero e entrevista com recrutador para avaliação de bolsa. Nesta fase se analisa a
+                        elegibilidade para a bolsa de estudos perante os clientes e o candidato.
+                    </td>
+                    <td>
+                        <img src="./img/imagem2.jpg" alt="teste de lógica para seleção" width="180px" height="180px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Terceira</td>
+                    <td>
+                        Dinâmica em grupo com a realização de teste on-line e convocação dos alunos aprovados.
+                    </td>
+                    <td>
+                        <img src="./img/imagem1.jpg" alt="Aprovação na seleção" width="180px" height="180px">
+                    </td>
+                </tr>
+            </table>
         </div>
     </main>
     <footer>
